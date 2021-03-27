@@ -21,7 +21,7 @@ git clone https://github.com/meliketoy/wide-resnet.pytorch
 ## How to run
 After you have cloned the repository, you can train each dataset of either cifar10, cifar100 by running the script below.
 ```bash
-python main --lr 0.1 resume false --net_type [lenet/vggnet/resnet/wide-resnet] --depth 28 --widen_factor 10 --dropout_rate 0.3 --dataset [cifar10/cifar100] 
+python main.py --lr 0.1 --resume --net_type [lenet/vggnet/resnet/wide-resnet] --depth 28 --widen_factor 10 --dropout 0.3 --dataset [cifar10/cifar100] 
 ```
 
 ## Implementation Details
